@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pnp_solver.h
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Dense
+-
+eigen3/Eigen/Geometry
+-
+eigen3/Eigen/SVD
+-
+eigen3/Eigen/QR
+-
+
+/home/huo/Desktop/EPnP-Eigen/src/main.cpp
+pnp_solver.h
+/home/huo/Desktop/EPnP-Eigen/src/pnp_solver.h
+
+/home/huo/Desktop/EPnP-Eigen/src/pnp_solver.cpp
+pnp_solver.h
+/home/huo/Desktop/EPnP-Eigen/src/pnp_solver.h
+
